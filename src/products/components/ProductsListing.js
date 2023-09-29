@@ -6,8 +6,7 @@ import { fetchAllProducts } from '../productsSlice';
 
 const ProductsListing = () => { 
   const {addToCart, removeFromCart} = cartSlice.actions
-  const state = useSelector(state => state)
-  const {products} = state
+  const {products} = useSelector(state => state)
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchAllProducts('http://localhost:3000/products'))
