@@ -10,9 +10,9 @@ const TodoList = ({todos = [], onRemovePress, onCompletedPress}) => {
     return (
         <div className="list-wrapper">
             <NewTodoForm />
-            {todos.map((todo, index) => <TodoListItem 
+            {todos.map((todo, key) => <TodoListItem 
                 todo={todo} 
-                key={index}
+                key={key}
                 onRemovePress={onRemovePress}
                 onCompletedPress={onCompletedPress} />
                 )}
