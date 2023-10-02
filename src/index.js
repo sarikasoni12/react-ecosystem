@@ -5,6 +5,7 @@ import {Provider} from 'react-redux';
 import { store } from './store.js';
 import { persistStore } from 'redux-persist';
 import { PersistGate } from 'redux-persist/lib/integration/react';
+import 'font-awesome/css/font-awesome.min.css';
 
 const root = createRoot(document.getElementById("root"));
 const persistor = persistStore(store);
