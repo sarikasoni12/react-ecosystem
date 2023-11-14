@@ -13,7 +13,7 @@ root.render(
         <Provider store={store}>
             <PersistGate 
                 loading={<div>loading</div>}
-                persistor={persistor}>
+                persistor={persistor}> 
                 <App />
             </PersistGate>
         </Provider>  
