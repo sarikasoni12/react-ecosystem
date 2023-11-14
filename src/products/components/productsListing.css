@@ -1,0 +1,74 @@
+body {
+    background: hsl(0, 0%, 90%);
+    font-family: "Courier 10 Pitch", Courier, monospace;
+	/* font-size: 15px;*/
+	font-size: 1rem; 
+    color: #404040;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+}
+.centered{
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    margin: 5px 5px 5px 5px;
+    background-color: rgb(60, 60, 131);
+    color: white
+}
+
+@media screen and (min-width: 40em) {
+    .cards {
+        margin: auto;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 2em;
+    }
+    
+    .card {
+        display: flex;
+        flex: 0 1 calc(50% - .5em);       
+    }
+}
+
+@media screen and (min-width: 60em) {  
+    .card {
+         display: flex;
+        flex: 0 1 calc(33% - .5em);       
+    }
+}
+
+.card {
+    background: white;
+    margin-bottom: 2em;
+}
+
+.card-content {
+    padding: 1.4em;
+}
+
+.card-content p{
+    font-size: 95%
+}
+
+.card-content h2{
+    font-size: 95%;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+.card a:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}

@@ -1,34 +1,33 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import './navbar.css';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import { faUser, faShoppingCart } from '@fortawesome/fontawesome-free-solid'
+
 
 const Navbar = () => {
     const {productIds} = useSelector((state) => state.cart)
     return (
-        <div id="navbar" className="nav-flex ">
-            <div id="nav-belt">    
-                <div className="nav-left">  </div>
-                <div className="nav-fill">  </div>
-                <div className="nav-right"> 
-                    <div id="nav-cart">
-                        <div id="nav-cart-count-container">
-                            <span id="nav-cart-count" aria-hidden="true" className="nav-cart-count nav-cart-1 nav-progressive-attribute nav-progressive-content">
-                                {productIds.length}
-                            </span>
-                            <span className="nav-cart-icon nav-sprite"></span>
-                        </div>
-                        <div id="nav-cart-text-container" className=" nav-progressive-attribute">
-                            <span aria-hidden="true" className="nav-line-1">
-                                
-                            </span>
-                            <span aria-hidden="true" className="nav-line-2">
-                                Cart
-                                <span className="nav-icon nav-arrow"></span>
-                            </span>
-                        </div>
-                    </div>                                     
-                </div>
-            </div>
+        <div id="navbar">
+            <section className="menu-section">                      
+                    <div className="mixed-menu">
+                        <nav className="multi-level-menu">
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">New</a></li>
+                                <li><a href="">Apparels</a></li>
+                                <li><a href="">Accessories</a></li>
+                            </ul>
+                        </nav>
+                        <nav className="social-menu">
+                            <ul>
+                                <li><FontAwesomeIcon icon={faUser} className="icon"/>  </li>
+                                <li>Orders</li>
+                                <li><FontAwesomeIcon icon={faShoppingCart} className="icon"/></li>
+                            </ul>
+                        </nav>
+                    </div>        
+            </section>
         </div>
     )
 }

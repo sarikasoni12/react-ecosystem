@@ -1,61 +1,61 @@
 #navbar {
     background-color: #131921;
-    color: rgb(214, 214, 214);
+    color: rgb(214, 214, 214);   
+}
+ul {
+    list-style-type: none;
+    /* margin:0;
+    padding:0; */
 }
 
-#navbar.nav-flex {
+/* 
+.icon {
+   flex: 0 0 1.5em
+}
+
+.icon{
+    font-size: 1.8em;
+}
+.icon .fa-cart {
+    background-image: url("http://localhost:3001/images/cart-white.jpeg");
+} */
+
+/* #navbar .multi-level-menu {
+    background: red;
+}
+#navbar .social-menu {
+    background: yellow;
+} */
+
+.menu-section .mixed-menu {
     display: flex;
-    flex-flow: column nowrap;
-    flex: 1 1 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-#nav-belt {
+
+.menu-section .mixed-menu nav {
+    flex: 1 0 auto;
+}
+
+.menu-section .multi-level-menu ul {
     display: flex;
-    flex-flow: row nowrap;
-    width: 100%;
-    height: 60px; 
-    /* border: 1px solid red;    */
-}
-.nav-left {  
-    flex: 1;
-    width: auto;
-    border: 1px solid yellow;   
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
-.nav-fill {
-    flex: 6;
-    width: auto;
-    /* border: 1px solid pink;    */
-}
-.nav-right {
-    float: right;
-    flex: 1;        
-    width: auto;
-    position: relative;
-    border: 1px solid gray;   
+.menu-section .multi-level-menu ul li{
+   flex: 1 0 auto;
 }
 
-#nav-cart {
-    margin-right: 11px;
-    padding-left: 9px;
-    flex-flow: row nowrap;
-    padding: 0 9px 11px 10px;
+.menu-section .social-menu ul {
     display: flex;
-    height: 50px
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
-
-#nav-cart-count-container {
-    flex-flow: column nowrap;
+.menu-section .social-menu ul li{
+    flex: 0 0 4em;
 }
-
-#navbar .nav-sprite {
-    background-image: url(https://m.media-amazon.com/images/G/15/gno/sprites/nav-sprite-global-2x-hm-dsk-reorg._CB405936603_.png);
-    background-size: 350px;
-    background-position: 0 1000px;
-    background-repeat: repeat-x;    
-}
-
-#nav-tools #nav-cart .nav-cart-icon {
-    background-position: -10px -340px;
-    width: 38px;
-    height: 26px;
-}
+/* #navbar .mixed-menu ul {
+    display: flex;
+    justify-content:space-around;
+} */
