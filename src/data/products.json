@@ -1,0 +1,67 @@
+{ 
+    "products":  [
+    {
+        "id": 1,
+        "name": "Springs Robot",
+        "price": 70,
+        "detail": "Super spring robots",
+        "img": "https://pixahive.com/wp-content/uploads/2020/10/Gym-shoes-153180-pixahive.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Sergeant Robot",
+        "price": 80,
+        "detail": "Super sergeant robots",
+        "img": "https://pixahive.com/wp-content/uploads/2020/10/Gym-shoes-153180-pixahive.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Sergeant Robot",
+        "price": 80,
+        "detail": "Super sergeant robots",
+        "img": "https://pixahive.com/wp-content/uploads/2020/10/Gym-shoes-153180-pixahive.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Sergeant Robot",
+        "price": 80,
+        "detail": "Super sergeant robots",
+        "img": "https://pixahive.com/wp-content/uploads/2020/10/Gym-shoes-153180-pixahive.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Sergeant Robot",
+        "price": 80,
+        "detail": "Super sergeant robots",
+        "img": "https://pixahive.com/wp-content/uploads/2020/10/Gym-shoes-153180-pixahive.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Sergeant Robot",
+        "price": 80,
+        "detail": "Super sergeant robots",
+        "img": "https://pixahive.com/wp-content/uploads/2020/10/Gym-shoes-153180-pixahive.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Sergeant Robot",
+        "price": 80,
+        "detail": "Super sergeant robots",
+        "img": "https://pixahive.com/wp-content/uploads/2020/10/Gym-shoes-153180-pixahive.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Sergeant Robot",
+        "price": 80,
+        "detail": "Super sergeant robots",
+        "img": "https://pixahive.com/wp-content/uploads/2020/10/Gym-shoes-153180-pixahive.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Sergeant Robot",
+        "price": 80,
+        "detail": "Super sergeant robots",
+        "img": "https://pixahive.com/wp-content/uploads/2020/10/Gym-shoes-153180-pixahive.jpg"
+    }
+]
+}
